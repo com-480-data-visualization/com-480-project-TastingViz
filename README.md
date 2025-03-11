@@ -4,7 +4,7 @@
 | Student's name       | SCIPER   | Email                        |
 | -------------------- | -------- | ---------------------------- |
 | Vivien Gaillet       |          | vi.gaillet@gmail.com          |
-| Oliver Sorrentino    |          | oliver.sorrentino@epfl.ch     |
+| Oliver Sorrentino    | 341207   | oliver.sorrentino@epfl.ch     |
 | Dana Shayakhmetova   | 388763   | dana.shayakhmetova@epfl.ch    |
 
 [Milestone 1](#milestone-1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
