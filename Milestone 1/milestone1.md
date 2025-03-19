@@ -61,7 +61,10 @@ For our ingredient search tool, we aim to create something similar to the functi
 
 
 For finding a similar recipe to one that users like, we envision a feature like the one below: ...
-<!-- <img src="image.jpg" alt="Alt text" width="300"> -->
+
+<p align="center">
+  <img src="images/clusters.png" alt="Search bar" width="700">
+</p>
 
 
 Overall, we want our website design to be simple, welcoming, and engaging, similar to the design below: [source link](https://dribbble.com/shots/14787532-Weather-Forecast-Dashboard)
