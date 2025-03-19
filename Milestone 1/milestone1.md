@@ -60,7 +60,7 @@ For our ingredient search tool, we aim to create something similar to the functi
 </p>
 
 
-For finding a similar recipe to one that users like, we envision a feature like the one below: ...
+We propose a feature that helps users find similar recipes based on their preferences. When users click on a specific point in the cluster (shown below), a recipe card with the recipe and ingredients will appear, similar to the one on the left.
 
 <p align="center">
   <img src="images/clusters.png" alt="Search bar" width="700">
