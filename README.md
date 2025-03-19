@@ -77,6 +77,15 @@ We propose a feature that helps users find similar recipes based on their prefer
   <img src="Milestone1/images/clusters.png" alt="Clustering Example" width="600">
 </p>
 
+Other idea to search through the recipes by recipes or ingredients :  [source 1 link](https://www.pinterest.com/pin/recipe-app-design--791296597023662453/) [source 2 link](https://www.seroundtable.com/google-new-recipe-search-interface-36038.html)
+
+<p align="center">
+  <img src="Milestone1/images/search3.png" alt="Search example" width="600">
+</p>
+
+<p align="center">
+  <img src="Milestone1/images/search4.png" alt="Search2 example" width="600">
+</p>
 
 Overall, we want our website design to be simple, welcoming, and engaging, similar to the design below: [source link](https://dribbble.com/shots/14787532-Weather-Forecast-Dashboard)
 
