@@ -44,6 +44,8 @@ As mentioned before, the motivation behind this project is to bridge the gap bet
 
 We focused on preprocessing the data by removing ingredients used fewer than once and excluding recipes with fewer than three ingredients. We also explored basic statistics and visualized key trends within the dataset. For a detailed view of our code, graphs, and further analysis, please refer to the "eda" notebook in our repository.
 
+[Noteboook Link](https://github.com/com-480-data-visualization/com-480-project-TastingViz/blob/master/Milestone1/eda.ipynb)
+
 ### Related work
 
 #### What others have already done with the data?
