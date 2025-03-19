@@ -51,9 +51,13 @@ Our inspiration comes from a variety of sources, both related and unrelated to c
 
 For our ingredient search tool, we aim to create something similar to the functionality below, but with a more visually appealing design: [source link](https://www.reciperadar.com/)
 
-<img src="images/search.png" alt="Search bar" width="300">
+<p align="center">
+  <img src="images/search.png" alt="Search bar" width="700">
+</p>
 
-<img src="images/search2.png" alt="Search bar" width="300">
+<p align="center">
+  <img src="images/search2.png" alt="Search bar" width="700">
+</p>
 
 
 For finding a similar recipe to one that users like, we envision a feature like the one below: ...
@@ -62,6 +66,9 @@ For finding a similar recipe to one that users like, we envision a feature like 
 
 Overall, we want our website design to be simple, welcoming, and engaging, similar to the design below: [source link](https://dribbble.com/shots/14787532-Weather-Forecast-Dashboard)
 
-<img src="images/theme.png" alt="Search bar" width="300">
+
+<p align="center">
+  <img src="images/theme.png" alt="Search bar" width=700">
+</p>
 
 
