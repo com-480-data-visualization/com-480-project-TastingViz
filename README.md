@@ -102,6 +102,8 @@ Overall, we want our website design to be simple, welcoming, and engaging, simil
 
 Link to website skeleton: [TastingViz Website Skeleton](https://com-480-data-visualization.github.io/com-480-project-TastingViz/)
 
+Milestone 2 Text Document: [Link to PDF](https://github.com/com-480-data-visualization/com-480-project-TastingViz/blob/master/Milestone2/Milestone2.pdf)
+
 ## Milestone 3 (30th May, 5pm)
 
 **80% of the final grade**
