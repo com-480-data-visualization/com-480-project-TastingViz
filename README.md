@@ -7,7 +7,7 @@
 | Oliver Sorrentino    | 341207   | oliver.sorrentino@epfl.ch     |
 | Dana Shayakhmetova   | 388763   | dana.shayakhmetova@epfl.ch    |
 
-[Milestone 1](https://github.com/com-480-data-visualization/com-480-project-TastingViz/tree/master/Milestone1) • [Milestone 2]([#milestone-2](https://github.com/com-480-data-visualization/com-480-project-TastingViz/tree/master/Milestone2)) • [Milestone 3](#milestone-3)
+[Milestone 1](https://github.com/com-480-data-visualization/com-480-project-TastingViz/tree/master/Milestone1) • [Milestone 2](https://github.com/com-480-data-visualization/com-480-project-TastingViz/tree/master/Milestone2) • [Milestone 3](#milestone-3)
 
 ## Milestone 1 (21st March, 5pm)
 
