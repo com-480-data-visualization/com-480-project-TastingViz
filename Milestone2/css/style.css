@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 
+/* 
+------------------
+General CSS
+-----------------
+*/
+
+
 *,
 *:after,
 *:before{
@@ -33,14 +40,12 @@ ol {
 }
 
 
-/* variable define */
-
 :root {
-    --primary-color: #FF7A00;        /* a rich, warm orange */
-    --secondary-color: #994D00;      /* deep brownish-orange for contrast */
-    --third-color: #FFC074;          /* soft peachy-orange for accents */
+    --primary-color: #FF7A00;        
+    --secondary-color: #994D00;      
+    --third-color: #FFC074;          
     --white-color: #fff;
-    --text-color: #4B2E14;           /* dark brown text for warmth & readability */
+    --text-color: #4B2E14;           
     --black-color: #000;
     --primary-font: 'Roboto', sans-serif;
     --secondary-font: 'Quicksand', sans-serif;
@@ -57,8 +62,6 @@ body{
     font-weight: 400;
 }
 
-
-/* custome css design */
 
 h1{
     font-size: 3rem;
@@ -120,12 +123,6 @@ p{
     color: var(--primary-color);
 }
 
-#regenerate-recipes {
-    display: block; /* Ensures the button is treated as a block element */
-    margin: 0 auto; /* Centers the button horizontally */
-    padding: 10px 20px; /* Optional: Adjust padding for a better button size */
-}
-
 .wrapper{
     padding-top: 4rem;
     padding-bottom: 3rem;
@@ -141,12 +138,6 @@ p{
     color: var(--white-color);
 }
 
-
-/* 
-------------------
-Header design
------------------
-*/
 
 /* 
 ------------------
@@ -189,13 +180,12 @@ Header design
     margin-left: 0.625rem;
 }
 
-/* Remove the scroll-on effect for white background */
 .navigation-wrap.scroll-on{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background: white; /* Keeps the white background on scroll */
+    background: white; 
     box-shadow: 0 0.125rem 1.75rem 0 rgb(0, 0, 0, 0.09);
     transition: all .15s ease-in-out 0s;
 }
@@ -203,7 +193,7 @@ Header design
 
 /* 
 -------------------
-top banner design
+Top banner design
 ------------------
  */
 
@@ -219,7 +209,7 @@ top banner design
 
 /* 
 ----------------------
-counter design
+Counter design
 ------------------
  */
 
@@ -235,7 +225,7 @@ counter design
 
 /* 
 ----------------------
-about section
+About section
 --------------------
  */
 
@@ -253,7 +243,7 @@ about section
 
 /* 
 -----------------------
-food type section desing
+Food type section desing
 -------------------------
  */
 
@@ -294,7 +284,7 @@ food type section desing
 
 
 /* -----------------------------
-explore food section design
+Explore food section design
 --------------------------------
  */
 
@@ -317,12 +307,12 @@ explore food section design
     object-fit: cover;
     height: 200px;
     width: 100%;
-    border: 2px solid #994D00; /* Set the border color and width */
+    border: 2px solid #994D00;
 }
 
 
 .explore-food .card .card-body {
-    padding: 1.5rem; /* Add padding on all sides of the card body */
+    padding: 1.5rem; 
 }
 
 .explore-food .card h4 {
@@ -349,7 +339,11 @@ explore food section design
 }
 
 
-
+#regenerate-recipes {
+    display: block; 
+    margin: 0 auto; 
+    padding: 10px 20px; 
+}
 
 
 /* -----------------
@@ -374,7 +368,6 @@ About Us
     text-align: center; /* Centers text horizontally */
 
 }
-/* Ensure all team member cards have the same height */
 .about_us .row {
     display: flex;
     flex-wrap: wrap;
@@ -382,7 +375,7 @@ About Us
 }
 
 .team-member {
-    flex: 1;  /* Ensure cards take up equal space */
+    flex: 1;  
     text-align: center;
     padding: 10px;
     background-color: #f8f9fa;
@@ -390,10 +383,10 @@ About Us
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     margin-bottom: 20px;
-    min-height: 350px; /* Ensure minimum height for uniformity */
+    min-height: 350px; 
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Ensure content is spaced evenly */
+    justify-content: space-between; 
 }
 
 .team-member img {
@@ -404,7 +397,6 @@ About Us
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* Ensures the image is centered horizontally */
 }
 
 .team-member h4 {
@@ -425,7 +417,10 @@ About Us
 
 
 
-/* footer */
+/* -----------------
+Footer 
+--------------------
+ */
 
 .footer{
     background: var(--primary-color);
