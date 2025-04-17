@@ -100,7 +100,6 @@ Overall, we want our website design to be simple, welcoming, and engaging, simil
 
 **10% of the final grade**
 
-
 ## Milestone 3 (30th May, 5pm)
 
 **80% of the final grade**
