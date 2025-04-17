@@ -100,6 +100,8 @@ Overall, we want our website design to be simple, welcoming, and engaging, simil
 
 **10% of the final grade**
 
+Link to website skeleton: [TastingViz Website Skeleton](https://com-480-data-visualization.github.io/com-480-project-TastingViz/)
+
 ## Milestone 3 (30th May, 5pm)
 
 **80% of the final grade**
