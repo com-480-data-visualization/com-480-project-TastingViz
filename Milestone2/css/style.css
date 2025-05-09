@@ -453,3 +453,40 @@ Footer
     color: var(--white-color);
     padding: 0 1rem;
 }
+
+
+/* KNN */
+#node-info {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif; 
+  }
+  
+  .recipe-details h3 {
+    font-size: 1.75rem; 
+    color: var(--secondary-color);
+    margin-bottom: 0.75rem;
+  }
+  
+  .recipe-details p {
+    font-size: 1rem;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+  }
+  
+  .recipe-details p strong {
+    font-weight: 700; 
+  }
+  
+  .recipe-details p {
+    line-height: 1.75rem; 
+  }
+  
+  .recipe-details p:last-child {
+    margin-bottom: 0; 
+  }
+  
