@@ -58,8 +58,8 @@
                         <p>Search for ingredients and discover recipes from around the world. Let our interactive map show you the culinary wonders of each country!</p>
     
                         <!-- Search Bar -->
-                        <form class="search-bar mt-4" action="#" method="get">
-                            <input type="text" name="ingredient" placeholder="Search for an ingredient..." class="form-control" required>
+                        <form class="search-bar mt-4" action="#" method="get" id="ingredientForm">
+                            <input type="text" name="ingredient" placeholder="Enter ingredients separated by commas..." class="form-control" required>
                             <div class="mt-4">
                                 <button type="submit" class="main-btn"><i class="fas fa-search"></i> Search</button>
                             </div>
@@ -96,6 +96,45 @@
             </div>
         </section>
     </section>
+
+<!-- section 5 Similar Recipes -->
+<section id="explore-food">
+    <div class="explore-food wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="text-content text-center">
+                        <h2>Find Great Recipes</h2>
+                        <p>Discover new recipes based on your favorites or explore variations from different cuisines.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5" id="recipe-list">
+                <!-- Recipe cards will be injected here by JavaScript -->
+            </div>
+            <div class="text-center">
+                <button class="mt-4 main-btn" id="regenerate-recipes">Regenerate</button>
+            </div>
+        </div>
+
+        <!-- the neighbours -->
+        <div class="container mt-5">
+            <div class="row align-items-center">
+                <div class="col-lg-7 col-md-12 mb-lg-9 mb-5">
+                    <div class="card border-0">
+                        <img src="Milestone2/images/img/example3.png" alt="graph neighbours" class="img-fluid mt-5">
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12 text-sec">
+                    <h2>Graphical Neighbors</h2>
+                    <p>Look at the graph on the side to view the K-nearest neighboring recipes and discover how they relate based on shared ingredients, flavors, and techniques. Find new meal ideas by exploring these connections!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
 
      <!-- section 3 Food Map -->
 <section id="map">
@@ -151,75 +190,7 @@
         </div>
     </section>
 
-    <!-- section 5 Similar Recipes -->
-<section id="explore-food">
-    <div class="explore-food wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="text-content text-center">
-                        <h2>Find Similar Recipes</h2>
-                        <p>Discover new recipes based on your favorites or explore variations from different cuisines.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row pt-5" id="recipe-list">
-                <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
-                    <div class="card">
-                        <img src="Milestone2/images/img/img-3.jpg" alt="" class="img-fluid">
-                        <div class="pt-3">
-                            <h4>Recipe 1</h4>
-                            <p>Time: 20 - 25 Minutes | serves: 1</p>
-                            <!-- Random Ingredients List -->
-                            <p><strong>Ingredients:</strong> Chicken, Garlic, Olive Oil, Lemon, Parsley</p>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
-                    <div class="card">
-                        <img src="Milestone2/images/img/img-4.jpg" alt="" class="img-fluid">
-                        <div class="pt-3">
-                            <h4>Recipe 2</h4>
-                            <p>Time: 20 - 25 Minutes | serves: 1</p>
-                            <!-- Random Ingredients List -->
-                            <p><strong>Ingredients:</strong> Spinach, Feta Cheese, Olive Oil, Garlic</p>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
-                    <div class="card">
-                        <img src="Milestone2/images/img/img-5.jpg" alt="" class="img-fluid">
-                        <div class="pt-3">
-                            <h4>Recipe 3</h4>
-                            <p>Time: 20 - 25 Minutes | serves: 1</p>
-                            <!-- Random Ingredients List -->
-                            <p><strong>Ingredients:</strong> Rice, Tomatoes, Onion, Bell Pepper, Ground Beef, Cheese</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <button class="mt-4 main-btn" id="regenerate-recipes">Regenerate</button>
-    </div>
 
-        <!-- the neighbours -->
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-7 col-md-12 mb-lg-9 mb-5">
-                <div class="card border-0">
-                    <img src="Milestone2/images/img/example3.png" alt="graph neighbours" class="img-fluid mt-5">
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-12 text-sec">
-                <h2>Graphical Neighbors</h2>
-                <p>Look at the graph on the side to view the K-nearest neighboring recipes and discover how they relate based on shared ingredients, flavors, and techniques. Find new meal ideas by exploring these connections!</p>
-            </div>
-        </div>
-    </div>
-        
-</section>
 
 <!-- Section 6 General EDA -->
 
