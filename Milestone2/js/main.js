@@ -99,7 +99,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     getRandomThree(recipes).forEach(recipe => {
       const titleWords = recipe.Title.trim().split(" ");
-      const query = titleWords.length > 2 ? titleWords.slice(1).join(" ") : recipe.Title;
+      const doc = nlp(recipe.Title);
+      const nouns = doc.nouns().out('array');
+      // const verbs = doc.verbs().out('array');
+      const queryWords = [...nouns]; // just keep nouns to avoid non food pics as much as possible
+      const query = queryWords.length > 0 ? queryWords.join(" ") : recipe.Title;
 
       fetchUnsplashImage(query, (imgUrl) => {
         const card = document.createElement('div');
