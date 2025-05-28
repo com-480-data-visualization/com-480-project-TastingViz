@@ -8,12 +8,12 @@ let worldData, foodData;
 // Load data
 Promise.all([
   d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"),
-  d3.csv("CulinaryDB/test_data_world_map.csv")])
+  d3.csv("CulinaryDB/data_world_map.csv")])
   .then(([geo, csv]) => {
   worldData = geo;
   foodData = csv;
 
-  drawMap("meat");
+  drawMap("vegetable");
 });
 
 // Tab interactivity
@@ -40,6 +40,14 @@ function drawMap(foodType) {
 
   // Create color per ingredients
   const ingredients = Array.from(new Set(foodData.map(d => d[foodType])));
+  
+  // Shuffle ingredients array to randomize color assignment so blue is not always for biggest category
+  for (let i = ingredients.length - 1; i > 0; i--) 
+    {
+      const j = Math.floor(Math.random() * (i + 1));
+      [ingredients[i], ingredients[j]] = [ingredients[j], ingredients[i]];
+    }
+
   const colorScale = d3.scaleOrdinal().domain(ingredients).range(d3.schemeTableau10);
 
   // Draw each country
