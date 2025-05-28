@@ -17,7 +17,7 @@ Promise.all([
 });
 
 // Tab interactivity
-const foodTabs = document.querySelector("#foodTabs .nav-link");
+const foodTabs = document.querySelectorAll("#foodTabs .nav-link");
 
 foodTabs.forEach(tab => {
   tab.addEventListener("click", (e) => {
@@ -52,6 +52,11 @@ function drawMap(foodType) {
   .on("mouseover", function (_event, d) {
     const topFood = foodMap.get(d.properties.name) || "Unknown";
     d3.select("#map_legend").html(`${d.properties.name} : ${topFood}`); // Show top food element of the country hovered
+
+    // Highlight the country hovered by the mouse
+    d3.select(this).attr("stroke", "black").attr("stroke-width", 1.8).raise();
+  }).on("mouseout", function () {
+    d3.select(this).attr("stroke", "#333").attr("stroke-width", 1);
   });
 
   // Show which tab is selected
