@@ -155,10 +155,33 @@
                     </div>
                 </div>
             </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form class="search-bar mt-4" action="#" method="get" id="ingredientForm">
+                        <input
+                            type="text"
+                            id="searchInput"
+                            name="ingredient"
+                            placeholder="Example format: tomato, pasta"
+                            class="form-control"
+                            autocomplete="off"
+                            required
+                        />
+                        <div id="autocomplete-list" class="list-group"></div>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="image-container text-center">
-            <img src="Milestone2/images/img/map_sketch.png" alt="Explore Food Image" class="img-fluid">
+    <div class="image-container text-center">
+        <div id="tooltip" class="tooltip"></div>
+        <div id="map-svg"></div>
+    </div>
+
+            
+            
 </section>
+<!-- section 4 Ingredient Pairings -->
+
 
     <!-- section 4 Ingredient Pairings -->
     <section id="ingredient_pairings">
@@ -254,7 +277,7 @@
                         <img src="Milestone2/images/team1.png" alt="Vivien Gaillet" class="img-fluid rounded-circle mb-3">
                         <h4>Vivien Gaillet</h4>
                         <p><strong>Role:</strong> Global Flavor Engineer</p>
-                        <p>Vi explored the global influence of cuisine and identified the best ingredient combinations for a given search.</p>
+                        <p>Vivien explored the global influence of cuisine and identified the best ingredient combinations for a given search.</p>
                     </div>
                 </div>
 
@@ -348,6 +371,32 @@
     <!-- own js file -->
     <script src="Milestone2/js/main.js"></script>
     <script src="Milestone2/js/worldMap.js"></script>
+
+
+
+    <!-- Vivien Viz -->
+    <form class="search-bar mt-4" action="#" method="get" id="ingredientForm">
+        <input
+          type="text"
+          id="searchInput"
+          name="ingredient"
+          placeholder="Example format: tomato, pasta"
+          class="form-control"
+          autocomplete="off"
+          required
+        />
+        <div id="autocomplete-list" class="list-group"></div>
+        <div class="mt-4">
+          <button type="submit" class="main-btn">
+            <i class="fas fa-search"></i> Search
+          </button>
+        </div>
+      </form>
+      
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6.5.0/turf.min.js"></script>
+    <script src="Milestone2/js/test_world_map.js" defer></script>
+
+
 </body>
 </html>
 
