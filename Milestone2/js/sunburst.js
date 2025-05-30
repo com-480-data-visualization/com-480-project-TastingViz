@@ -391,7 +391,7 @@ fetch('Milestone2/js/data.json')
 
       slider.addEventListener("input", function() {
         n_ingr_displayed = parseInt(this.value);
-        //sliderVal.textContent = n_ingr_displayed;
+        sliderVal.textContent = n_ingr_displayed;
         renderChart(target_ingr, n_ingr_displayed, ingredients, categories, cat_colors, ingr_cat, coocc_matrix);
       });
 })
