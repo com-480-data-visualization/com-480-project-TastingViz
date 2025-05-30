@@ -108,17 +108,6 @@ Milestone 2 Text Document: [Link to PDF](https://github.com/com-480-data-visuali
 
 **80% of the final grade**
 
-### Technical setup
-Index.html is the main html file of our website.
-
-Our Dataset is in the CulinaryDB file :  
-01_Recipe_Details.csv  
-02_Ingredients.csv  
-03_Compound_Ingredients.csv  
-04_Recipe-Ingredients_Aliases.csv  
-
-For the "What The World Eats" Visualization it used Index.html, the js code is in Milestone2/js/worldMap.js, it used CulinaryDB/data_world_map.csv for it's data, which is generated with the world_map_data.ipynb notebook using our dataset.
-
 ### Overview  
 Tasting Viz is an interactive web platform that explores global culinary data through visualizations and recipe discovery. Users can search for recipes based on ingredients, explore ingredient combinations, and learn about worldwide food patterns such as popular meats, vegetables, fruits, and food diversity by region.
 
@@ -138,6 +127,20 @@ The project combines technology and food culture to offer both practical recipe 
 - Vis.js: Used for interactive graph visualizations of recipe similarities.  
 - NLP.js (compromise.js): For extracting nouns from recipe titles to improve image search queries.  
 - Unsplash API: Fetches images related to recipe ingredients dynamically.
+
+### Technical setup
+
+Index.html is the main HTML file of our website, while responsive-style.css and style.css are the stylesheets responsible for the website’s overall design and layout.
+
+Our Dataset is in the CulinaryDB file :  
+01_Recipe_Details.csv  
+02_Ingredients.csv  
+03_Compound_Ingredients.csv  
+04_Recipe-Ingredients_Aliases.csv  
+
+For the recipe search bar and KNN graph visualizations, we used the Milestone2/js/recipes_with_ingredients.json file to load each recipe’s title, cuisine, and aliased ingredients. The logic for displaying matching recipes and constructing the similarity graph is implemented in main.js, where we render recipe cards and generate a Jaccard-based KNN graph based on shared ingredients.
+
+For the "What The World Eats" Visualization it used Index.html, the js code is in Milestone2/js/worldMap.js, it used CulinaryDB/data_world_map.csv for it's data, which is generated with the world_map_data.ipynb notebook using our dataset.
 
 ### Usage Instructions
 
