@@ -108,6 +108,13 @@ Milestone 2 Text Document: [Link to PDF](https://github.com/com-480-data-visuali
 
 **80% of the final grade**
 
+Link to screencast: [Youtube Link](https://youtu.be/wX4uyCv1VJM)
+
+Link to the database: [Database](https://cosylab.iiitd.edu.in/culinarydb/#databasedescription)
+
+Link to our website: [Our website](https://com-480-data-visualization.github.io/com-480-project-TastingViz/)
+
+Link to our process book: [Process book]()
 
 ## Late policy
 
