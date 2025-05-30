@@ -148,7 +148,7 @@ let ingr_data = ones.map((value, i) => ({
     .attr("d", arc)
     .attr("fill", (d, i) => colorList[i]);
   
-  let R = (outerRarc1 + innerRarc1) * 0.43;
+  let R = (outerRarc1 + innerRarc1) * 0.47;
   svgSunburst.append("defs")
     .selectAll("path")
     .data(pie(data))
