@@ -24,13 +24,13 @@
                     <a class="nav-link active" aria-current="page" href="#home">Home</a>
                   </li>
                   <li class="nav-item">
+                    <a class="nav-link" href="#explore-food">Find Recipes</a>
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link" href="#map">Food Map</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#ingredient_pairings">Ingredient Pairings</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#explore-food">Find Recipes</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#eda_map">Global Food</a>
@@ -152,6 +152,7 @@
                     <div class="text-content text-center">
                         <h2>Explore the global influence</h2>
                         <p>Discover how your favorite ingredients shape the culinary world. As you search for ingredients, watch as countries light up, with bolder colors representing regions rich in recipes.</p>
+                        <p>Type an ingredient name below, then double-click a suggestion to explore its global influence!</p>
                     </div>
                 </div>
             </div>
@@ -162,7 +163,7 @@
                             type="text"
                             id="searchInput"
                             name="ingredient"
-                            placeholder="Example format: tomato, pasta"
+                            placeholder="Example format: tomato"
                             class="form-control"
                             autocomplete="off"
                             required
@@ -189,25 +190,34 @@
             <div class="container">
                 <div class="row align-items-center">
 
-                    <!-- Your search and slider controls -->
-                    <div class="col-lg-12 mb-3">
+                    <!--  search and slider controls -->
+                    <!-- <div class="col-lg-12 mb-3">
                         <input type="text" id="searchInput2" placeholder="Type ingredient..." autocomplete="off">
                         <div id="autocomplete-list2"></div>
 
                         <label for="slider">Number of Ingredients Displayed:</label>
                         <input type="range" id="sliderN" min="3" max="40" value="10" />
                         <span id="sliderVal">6</span>
-                    </div>
+                    </div> -->
 
                     <div class="col-lg-7 col-md-12 mb-lg-9 mb-5">
                         <div class="card border-0">
-                            <div id="sunburst-svg" style="width:100%; height:800px;"></div>
+                            <div id="sunburst-svg" style="width:100%;/* height:800px; */"></div>
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-12 text-sec">
                         <h2>The Best Combinations for Your Ingredients</h2>
-                        <p>Discover how certain ingredients come together in popular cuisines. From sweet to savory, find out which pairings are the most common and why they work.</p>
-                        <button class="main-btn mt-3" onclick="window.location.href='#home'">Search other ingredients</button>
+                        <p>Discover how certain ingredients come together in popular cuisines. From sweet to savory, find out which pairings are the most common and why they work. </p>
+                        <p>Type an ingredient name below, then double-click on a suggestion to see its best pairings!</p>
+                        <div class="col-lg-12 mb-3">
+                         <!--  search and slider controls -->
+                        <label for="slider"> <p>Number of Ingredients Displayed: </p></label>
+                        <input type="range" id="sliderN" min="3" max="40" value="10" />
+                        <span id="sliderVal">6</span>
+                        <input type="text" id="searchInput2" placeholder="Example format: salt" autocomplete="off">
+                        <div id="autocomplete-list2"></div>
+                    </div>
+                        <!-- <button class="main-btn mt-3" onclick="window.location.href='#home'">Search other ingredients</button> -->
                     </div>
                 </div>
             </div>

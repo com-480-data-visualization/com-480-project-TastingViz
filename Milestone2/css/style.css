@@ -125,7 +125,7 @@ p{
 
 .wrapper{
     padding-top: 4rem;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 .text-content{
     width: 70%;
@@ -245,7 +245,9 @@ About section
 
 .ingredient-pairings .card,
 .aingredient-pairings .card img{
-    border-radius: 0.625rem;
+    /* border-radius: 0.625rem; */
+    padding: 0;
+    /* padding-top: 1rem; */
 }
 .ingredient-pairings .text-sec{
     padding-left: 2rem;
@@ -490,3 +492,30 @@ Footer
     margin-bottom: 0; 
   }
   
+
+
+  /* SEARCH INPUT #2 */
+
+#searchInput2 {
+  position: relative;
+  z-index: 2;
+}
+#autocomplete-list2 {
+  position: absolute;
+  z-index: 1;
+}
+
+  #searchInput2 {
+    width: 100%;
+    padding: 12px 20px;
+
+    font-size: 1rem;
+    font-family: var(--secondary-font);
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    background-color: #fff;
+    color: var(--text-color);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
