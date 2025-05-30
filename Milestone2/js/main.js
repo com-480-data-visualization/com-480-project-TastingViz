@@ -138,13 +138,27 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
+    // matchingRecipes = recipeData.filter(recipe =>
+    //   searchIngredients.every(ing =>
+    //     (Array.isArray(recipe["Aliased Ingredients"]) ? recipe["Aliased Ingredients"] : [])
+    //       .map(i => i.toLowerCase())
+    //       .includes(ing)
+    //   )
+    // );
+
     matchingRecipes = recipeData.filter(recipe =>
-      searchIngredients.every(ing =>
-        (Array.isArray(recipe["Aliased Ingredients"]) ? recipe["Aliased Ingredients"] : [])
-          .map(i => i.toLowerCase())
-          .includes(ing)
-      )
-    );
+    searchIngredients.every(ing =>
+      (Array.isArray(recipe["Aliased Ingredients"]) ? recipe["Aliased Ingredients"] : [])
+        .map(i => i.toLowerCase())
+        .includes(ing)
+    )
+  );
+
+  // Limit max number of recipes to 90 so our website doesnt crash when there are too many
+  if (matchingRecipes.length > 90) {
+    matchingRecipes = matchingRecipes.slice(0, 60);
+  }
+
 
     console.log("Matching Recipes:", matchingRecipes.map(r => ({ id: r["Recipe ID"], title: r["Title"] })));
 
