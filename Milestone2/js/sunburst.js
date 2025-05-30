@@ -256,7 +256,7 @@ let ingr_data = ones.map((value, i) => ({
     d.label = U_label_top_n[i];
     d.angle = (d.startAngle + d.endAngle) / 2;
   });
-  const labelRadiusOffset = 10; // How far the label is from the arc
+  const labelRadiusOffset = 10;
 
   // Get the RGB color for this category
   const rgb = cat_colors[ingr_cat[ind_target_ingr]];
