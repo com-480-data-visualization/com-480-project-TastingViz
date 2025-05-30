@@ -140,7 +140,7 @@ Our Dataset is in the CulinaryDB file :
 
 For the recipe search bar and KNN graph visualizations, we used the Milestone2/js/recipes_with_ingredients.json file to load each recipe’s title, cuisine, and aliased ingredients. The logic for displaying matching recipes and constructing the similarity graph is implemented in main.js, where we render recipe cards and generate a Jaccard-based KNN graph based on shared ingredients.
 
-The "Explore the Globe Influence" Visualization uses Index.html and the js script in Milestone2/js/test_world_map.js. The map is generated with D3.js and uses countries paths from https://raw.githubusercontent.com/holtzy/D3-graph gallery/master/DATA/world.geojson as well as whole continent paths from  Milestone2/js/continents.geojson. The data plotted come from Milestone2/js/data.json that contains pre-processed data from CulinaryDB.
+The "Explore the Globe Influence" Visualization uses Index.html and the js script in Milestone2/js/test_world_map.js. The map is generated with D3.js and uses countries paths from holtzy/D3-graph gallery/master/DATA/world.geojson as well as whole continent paths from  Milestone2/js/continents.geojson. The plotted data comes from Milestone2/js/data.json, which contains pre-processed information sourced from CulinaryDB.
 
 The "The Best Combination for your Ingredient" Visualization uses Index.html and the js script in Milestone2/js/sunburst.js. It uses Milestone2/js/data.json that contains pre-processed data from CulinaryDB. The sunburst plot is generated using D3.js.
 
