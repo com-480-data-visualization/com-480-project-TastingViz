@@ -173,9 +173,8 @@ let ingr_data = ones.map((value, i) => ({
     .attr("startOffset", "50%")
     .text(d => {
         const angleSpan = d.endAngle - d.startAngle;  // radians
-        const fractionOfCircle = angleSpan / (2 * Math.PI);  // fraction of full circle
+        const fractionOfCircle = angleSpan / (2 * Math.PI); 
 
-        // If the angle is smaller than 1/20 of a circle (~18 degrees)
         if (fractionOfCircle < 1 / limitAngle) {
             return d.data.ingredient.charAt(0);  // Show only first letter
         } else {
