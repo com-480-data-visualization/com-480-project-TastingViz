@@ -148,7 +148,7 @@ The project combines technology and food culture to offer both practical recipe 
 
 ## Main Links:
 
-Link to screencast: [Youtube Link](https://youtu.be/wX4uyCv1VJM)
+Link to screencast: [Youtube Link](https://youtu.be/8kvxRn5TMdQ)
 
 Link to the database: [Database](https://cosylab.iiitd.edu.in/culinarydb/#databasedescription)
 
