@@ -111,13 +111,13 @@ Milestone 2 Text Document: [Link to PDF](https://github.com/com-480-data-visuali
 ### Technical setup
 Index.html is the main html file of our website.
 
-Our Dataset is in the CulinaryDB file :
-01_Recipe_Details.csv
-02_Ingredients.csv
-03_Compound_Ingredients.csv
-04_Recipe-Ingredients_Aliases.csv
+Our Dataset is in the CulinaryDB file :  
+01_Recipe_Details.csv  
+02_Ingredients.csv  
+03_Compound_Ingredients.csv  
+04_Recipe-Ingredients_Aliases.csv  
 
-For the "What The World Eats" Visualization the js code is in Milestone2/js/worldMap.js, it used CulinaryDB/data_world_map.csv for it's data which is generated with the world_map_data.ipynb notebook using our dataset.
+For the "What The World Eats" Visualization it used Index.html, the js code is in Milestone2/js/worldMap.js, it used CulinaryDB/data_world_map.csv for it's data, which is generated with the world_map_data.ipynb notebook using our dataset.
 
 ### Overview  
 Tasting Viz is an interactive web platform that explores global culinary data through visualizations and recipe discovery. Users can search for recipes based on ingredients, explore ingredient combinations, and learn about worldwide food patterns such as popular meats, vegetables, fruits, and food diversity by region.
