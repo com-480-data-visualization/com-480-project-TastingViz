@@ -108,6 +108,46 @@ Milestone 2 Text Document: [Link to PDF](https://github.com/com-480-data-visuali
 
 **80% of the final grade**
 
+# Tasting Viz
+
+## Overview  
+Tasting Viz is an interactive web platform that explores global culinary data through visualizations and recipe discovery. Users can search for recipes based on ingredients, explore ingredient combinations, and learn about worldwide food patterns such as popular meats, vegetables, fruits, and food diversity by region.
+
+The project combines technology and food culture to offer both practical recipe inspiration and educational insights about world cuisines.
+
+## Features  
+
+- **Ingredient Search:** Search recipes by entering ingredients. The search results display relevant recipes with images sourced dynamically via the Unsplash API.  
+- **Recipe Visualization:** An interactive graph shows recipe similarities based on shared ingredients using a K-Nearest Neighbors (KNN) approach.  
+- **Global Food Maps:** Switchable maps visualize culinary habits, such as dominant meats, vegetables, fruits eaten per region, and overall food diversity.  
+- **Responsive UI:** Smooth scrolling navigation, counters for statistics, and an intuitive card layout for recipes.  
+
+
+### Frontend Development
+
+- HTML, CSS, JavaScript: Core web technologies for structure, style, and interaction.  
+- Vis.js: Used for interactive graph visualizations of recipe similarities.  
+- NLP.js (compromise.js): For extracting nouns from recipe titles to improve image search queries.  
+- Unsplash API: Fetches images related to recipe ingredients dynamically.
+
+## Usage Instructions
+
+1. Load the Website: Please open our website link ! 
+2. Search Recipes: Enter one or more ingredients separated by commas in the search bar and submit. The app will display matching recipes with images and details.  
+3. Explore Similar Recipes: Click on recipe nodes in the graph to see detailed information and ingredient similarities with other recipes.  
+4. Regenerate Results: Use the "Regenerate" button to get a fresh set of random recipes from the current search results.
+5. Search for ingredient pairings: Discover common ingredient combinations by entering ingredient pairs into the search.
+6. Switch Global Maps: Use the controls above the maps to switch between different global culinary statistics.  
+
+## General Limitations & Future Improvements
+
+- The search currently limits the maximum displayed matching recipes to 60 to avoid performance issues.  
+- Image results depend on the quality of the Unsplash API responses and keyword extraction accuracy.  
+- Additional culinary data layers and user customization options can be added to enhance learning and exploration.  
+- Improving performance and UX for very large recipe datasets.
+
+## Main Links:
+
 Link to screencast: [Youtube Link](https://youtu.be/wX4uyCv1VJM)
 
 Link to the database: [Database](https://cosylab.iiitd.edu.in/culinarydb/#databasedescription)
