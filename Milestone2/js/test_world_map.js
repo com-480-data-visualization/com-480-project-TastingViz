@@ -176,7 +176,7 @@ function renderMap(colorMatrix, ind_target_ingr, frequency_top_ing_per_cuisine) 
                     tooltip
                         .style("opacity", 1)
                         .text(d3.select(this).attr("data-name"))
-                        .style("background", "white")       // <-- Add this line
+                        .style("background", "white")     
                         .style("padding", "5px")            
                         .style("border-radius", "4px"); 
                 })
@@ -210,15 +210,15 @@ function renderMap(colorMatrix, ind_target_ingr, frequency_top_ing_per_cuisine) 
             .attr("fill", groupToRedraw.color)
             .attr("stroke", "red") // highlight stroke color
             .attr("stroke-width", 3)
-            .attr("data-name", groupToRedraw.name + " " + groupToRedraw.value + " %") // << ADDED LINE
+            .attr("data-name", groupToRedraw.name + " " + groupToRedraw.value + " %")
             .on("mouseover", function () {
                 tooltip
                     .style("opacity", 1)
                     .style("font-size", "28px")
-                    .style("background", "white")       // <-- Add this line
-                    .style("padding", "5px")            // Optional: adds spacing inside tooltip
+                    .style("background", "white")      
+                    .style("padding", "5px")           
                     .style("border-radius", "4px")  
-                    .text(d3.select(this).attr("data-name")); // << MATCHING ORIGINAL TOOLTIP TEXT
+                    .text(d3.select(this).attr("data-name")); 
                 d3.select(this).raise().attr("stroke-width", 5);
             })
             .on("mouseout", function () {
