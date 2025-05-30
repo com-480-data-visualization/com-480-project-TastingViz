@@ -143,8 +143,8 @@ The project combines technology and food culture to offer both practical recipe 
 
 - The search currently limits the maximum displayed matching recipes to 60 to avoid performance issues.  
 - Image results depend on the quality of the Unsplash API responses and keyword extraction accuracy.  
-- Additional culinary data layers and user customization options can be added to enhance learning and exploration.  
-- Improving performance and UX for very large recipe datasets.
+- Additional culinary data layers and user customization options can be added to enhance learning and exploration.
+- For more details, please view our process book.
 
 ## Main Links:
 
