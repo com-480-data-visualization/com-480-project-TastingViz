@@ -153,7 +153,7 @@ function renderMap(colorMatrix, ind_target_ingr, frequency_top_ing_per_cuisine) 
         console.log(colorMatrix[0])
         groups.forEach((group, index) => {
             group.color = rgbArrayToString(colorMatrix[sortedIndices[index]]);
-            group.value = Math.round(values[index] * 100 * 100) / 100;
+            group.value = Math.round(values[index] * 100 * 10) / 10;
         });
 
         groups.forEach(group => {
@@ -175,12 +175,16 @@ function renderMap(colorMatrix, ind_target_ingr, frequency_top_ing_per_cuisine) 
 
                     tooltip
                         .style("opacity", 1)
-                        .text(d3.select(this).attr("data-name"));
+                        .text(d3.select(this).attr("data-name"))
+                        .style("background", "white")       // <-- Add this line
+                        .style("padding", "5px")            
+                        .style("border-radius", "4px"); 
                 })
                 .on("mousemove", function (event) {
                     tooltip
                         .style("left", (event.pageX + 10) + "px")
                         .style("top", (event.pageY - 20) + "px");
+                        
                 })
                 .on("mouseout", function () {
                     d3.select(this)
@@ -211,6 +215,9 @@ function renderMap(colorMatrix, ind_target_ingr, frequency_top_ing_per_cuisine) 
                 tooltip
                     .style("opacity", 1)
                     .style("font-size", "28px")
+                    .style("background", "white")       // <-- Add this line
+                    .style("padding", "5px")            // Optional: adds spacing inside tooltip
+                    .style("border-radius", "4px")  
                     .text(d3.select(this).attr("data-name")); // << MATCHING ORIGINAL TOOLTIP TEXT
                 d3.select(this).raise().attr("stroke-width", 5);
             })
