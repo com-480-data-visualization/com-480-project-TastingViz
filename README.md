@@ -163,7 +163,9 @@ Link to the database: [Database](https://cosylab.iiitd.edu.in/culinarydb/#databa
 
 Link to our website: [Our website](https://com-480-data-visualization.github.io/com-480-project-TastingViz/)
 
-Link to our process book: [Process book]()
+Link to our process book: [Process book](https://www.canva.com/design/DAGo6sB2gP0/61yPSV5FyGHTL227TRIIUw/view?utm_content=DAGo6sB2gP0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2337475419#1)
+
+note: we tried uploading our process book as a PDF file but the images were missing. For this reason, we created a Canva View Link.
 
 ## Late policy
 
