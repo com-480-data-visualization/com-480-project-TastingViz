@@ -123,7 +123,7 @@ The project combines technology and food culture to offer both practical recipe 
 - **Responsive UI:** Smooth scrolling navigation, counters for statistics, and an intuitive card layout for recipes.  
 
 
-### Frontend Development
+## Frontend Development
 
 - HTML, CSS, JavaScript: Core web technologies for structure, style, and interaction.  
 - Vis.js: Used for interactive graph visualizations of recipe similarities.  
